@@ -21,7 +21,7 @@ Select `1` if you want the program to play itself **It will always end up as a t
 Select `2` if you want to play the computer **Best you can do is to end up in a tie**.
 
 ###Computer VS Computer
-After every move the player makes it will show the possible moves, the move selected and the board with the new move on it.
+After every move that the player makes it will show the possible moves, the move selected and the board with the new move on it.
 
 Press enter to see each new move until it ties with itself.
 
@@ -29,14 +29,15 @@ Press enter to see each new move until it ties with itself.
 When playing the computer it will print a list of valid moves. In order to make a move type in the coordinates and press enter
 
 ```bash
->>> 2,1
+> Possible Moves: [(0, 0), (1, 0), (2, 0), (0, 1), (1, 1), (2, 1), (0, 2), (1, 2), (2, 2)]
+> What's your move? 1,2
 ```
 After every move it will show the board changed.
 
 **Every print of the board will stay in the screen for reference**
 
 ##Testing Scenarios:
-There a .txt file called `test_baords.txt` which has a bunch of testing scenarios.
+There's a .txt file called `test_baords.txt` which has a bunch of testing scenarios.
 
 The few first ones are of an end state of the board.
 
