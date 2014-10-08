@@ -12,6 +12,7 @@
 run the `main.py` without any parameters to fire up the menu:
 
 ```bash
+#./main.py
 Select an option
 1 - PC vs PC, 2 - PC vs Hooman: 
 ```
@@ -42,3 +43,9 @@ The few first ones are of an end state of the board.
 The rest are on a non-end state of the board.
 
 If the test board is a non-end state it will print the different possibilities of each player to win and then the total heuristic.
+
+Run the `main.py` and give the .txt file as argument for board testing.
+
+```bash
+#./main.py test_board.txt
+```
